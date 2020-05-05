@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import styles from "./App.module.css";
 import { Cards, Chart, CountryPicker } from "./components";
 import {fetchData} from "./api"
-import Viruins from "./components/Viruins/Viruins";
 
 class App extends Component {
 
