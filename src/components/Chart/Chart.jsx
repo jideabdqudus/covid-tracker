@@ -17,10 +17,30 @@ const Chart = () => {
   });
 
   const lineChart = dailyData[0] ? (
-    <Line data={{ labels: "", datasets: [{}, {}] }} />
+    <Line
+      data={{
+        labels: dailyData(({ date }) => date),
+        datasets: [
+          {
+            data: dailyData(({ confirmed }) => confirmed),
+            label: "Infected",
+            borderColor: "#3333ff",
+            fill: true,
+          },
+          {
+            data: dailyData(({ deaths }) => deaths),
+            label: "Deaths",
+            borderColor: "black",
+            backgroundColor: "rgba(255,0,0, 0.5)",
+            fill: true,
+          },
+        ],
+      }}
+    />
   ) : null;
-
-  return <div></div>;
+  return (<div className="styles.container">
+    
+    </div>);
 };
 
 export default Chart;
