@@ -14,14 +14,15 @@ export const fetchData = async () =>{
         }
         return modifiedData
     } catch (error) {
-        
+        console.error(error)
     }
 }
 
-export const fetchDailyData = async ()->{
+export const fetchDailyData = async ()=>{
     try {
-        const response = aw
+        const {data} = await axios.get(`${url}/daily`)
+        console.log(data)
     } catch (error) {
-        
+        console.error(error)
     }
 }
