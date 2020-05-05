@@ -1,10 +1,9 @@
 import React from 'react'
-import styles from "./Viruins.module.css"
 
 
 const Viruins = () => {
     return (
-        <div className={styles}>
+        <div>
         <div className="container full-height-grow">
         <header className="main-header">
           <a href="/" className="brand-logo">

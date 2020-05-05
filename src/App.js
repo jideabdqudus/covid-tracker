@@ -19,7 +19,6 @@ class App extends Component {
     const {data} = this.state
     return (
       <div>
-      <Viruins/>
       <div className={styles.container}>
         <Cards data={data}/>
         <CountryPicker />
