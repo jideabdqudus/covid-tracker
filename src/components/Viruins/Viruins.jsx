@@ -1,6 +1,11 @@
 import React from "react";
 import styles from "./Viruins.module.css"
 import cx from "classnames"
+import feeding from "./images/feedingvir.png"
+import sanitize from "./images/sanitizera.png"
+import wash from "./images/washhandvir.png"
+import bumble from "./images/bumblevir.png"
+import polyvir from "./images/polyvir.png"
 
 const Viruins = () => {
   return (
@@ -24,22 +29,22 @@ const Viruins = () => {
           </div>
           <div className={styles.callToAction}>
             <b className={styles.title}>COVID TRACKER</b>
-            <span className="subtitle">
+            <span className={styles.subtitle}>
               The COVID-19 health tracker platform provides you with
               multichannel information and update on the Coronavirus
             </span>
-            <a href="#!" className="btn">
+            <a href="#!" className={styles.btn}>
               Try it for free
             </a>
           </div>
         </section>
-        <img className="home-page-circle-1" src="./images/feedingvir.png"></img>
-        <img className="home-page-circle-2" src="./images/polyvir.png"></img>
-        <img className="home-page-circle-3" src="./images/sanitizera.png"></img>
-        <img className="home-page-circle-4" src="./images/washhandvir.png"></img>
-        <img className="home-page-circle-6" src="./images/bumblevir.png"></img>
-        <img className="home-page-circle-7" src="./images/feedingvir.png"></img>
-        <img className="home-page-circle-10" src="./images/washhandvir.png"></img>
+        <img className={styles.homePageCircle1} src={feeding}></img>
+        <img className={styles.homePageCircle2} src={polyvir}></img>
+        <img className={styles.homePageCircle3} src={sanitize}></img>
+        <img className={styles.homePageCircle4} src={wash}></img>
+        <img className={styles.homePageCircle6} src={bumble}></img>
+        <img className={styles.homePageCircle7} src={feeding}></img>
+        <img className={styles.homePageCircle10} src={wash}></img>
       </div>
     </div>
   );
