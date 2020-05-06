@@ -6,6 +6,7 @@ import sanitize from "./images/sanitizera.png"
 import wash from "./images/washhandvir.png"
 import bumble from "./images/bumblevir.png"
 import polyvir from "./images/polyvir.png"
+import xviruins from "./images/Xviruins.png"
 
 const Viruins = () => {
   return (
@@ -25,7 +26,7 @@ const Viruins = () => {
         </header>
         <section className={styles.homeMainSection}>
           <div className={styles.imgWrapper}>
-            <div className={styles.ladyImage}></div>
+            <img className={styles.ladyImage} src={xviruins}></img>
           </div>
           <div className={styles.callToAction}>
             <b className={styles.title}>COVID TRACKER</b>
