@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import styles from "./App.module.css";
 import { Cards, Chart, CountryPicker } from "./components";
 import {fetchData} from "./api"
+import Viruins from "./components/Viruins/Viruins"
 
 class App extends Component {
 
@@ -25,11 +26,12 @@ class App extends Component {
     const {data} = this.state
     return (
       <div>
-      <div className={styles.container}>
+      <Viruins/>
+      {/*<div className={styles.container}>
         <Cards data={data}/>
         <CountryPicker />
         <Chart />
-      </div>
+    </div>*/}
       </div>
     );
   }
