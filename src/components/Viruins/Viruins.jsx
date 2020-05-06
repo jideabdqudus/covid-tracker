@@ -1,10 +1,11 @@
 import React from "react";
 import styles from "./Viruins.module.css"
+import cx from "classnames"
 
 const Viruins = () => {
   return (
     <div>
-      <div className="container full-height-grow">
+      <div className={cx(styles.container, styles.fullHeightGrow)}>
         <header className="main-header">
           <a href="/" className="brand-logo">
             <h3 className="brand-logo-name">Viruins</h3>
