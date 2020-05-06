@@ -6,11 +6,11 @@ const Viruins = () => {
   return (
     <div>
       <div className={cx(styles.container, styles.fullHeightGrow)}>
-        <header className="main-header">
-          <a href="/" className="brand-logo">
-            <h3 className="brand-logo-name">Viruins</h3>
+        <header className={styles.mainHeader}>
+          <a href="/" className={styles.brandLogo}>
+            <h3 className={styles.brandLogoName}>Viruins</h3>
           </a>
-          <nav className="main-nav">
+          <nav className={styles.mainNav}>
             <ul>
               <li>
                 <a href="#">Try it for free</a>
@@ -18,12 +18,12 @@ const Viruins = () => {
             </ul>
           </nav>
         </header>
-        <section className="home-main-section">
-          <div className="img-wrapper">
-            <div className="lady-image"></div>
+        <section className={styles.homeMainSection}>
+          <div className={styles.imgWrapper}>
+            <div className={styles.ladyImage}></div>
           </div>
-          <div className="call-to-action">
-            <b className="title">COVID TRACKER</b>
+          <div className={styles.callToAction}>
+            <b className={styles.title}>COVID TRACKER</b>
             <span className="subtitle">
               The COVID-19 health tracker platform provides you with
               multichannel information and update on the Coronavirus
