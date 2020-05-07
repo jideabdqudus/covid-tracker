@@ -22,7 +22,6 @@ class App extends Component {
 
     this.setState({data: fetchedData, country: country})
 
-    console.log(fetchedData)
   }
   render() {
     const {data, country} = this.state
