@@ -3,10 +3,11 @@ import { Card, CardContent, Typography, Grid } from "@material-ui/core";
 import styles from "./Cards.module.css";
 import cx from "classnames"
 import CountUp from "react-countup";
+import Preloader from "./../Preloader/Preloader"
 
 const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
   if (!confirmed) {
-    return "Loading..";
+    return <Preloader/>
   }
   return (
     <div className={styles.container}>
