@@ -1,12 +1,12 @@
 import React from "react";
-import styles from "./Viruins.module.css"
-import cx from "classnames"
-import feeding from "./images/feedingvir.png"
-import sanitize from "./images/sanitizera.png"
-import wash from "./images/washhandvir.png"
-import bumble from "./images/bumblevir.png"
-import polyvir from "./images/polyvir.png"
-import xviruins from "./images/Xviruins.png"
+import styles from "./Viruins.module.css";
+import cx from "classnames";
+import feeding from "./images/feedingvir.png";
+import sanitize from "./images/sanitizera.png";
+import wash from "./images/washhandvir.png";
+import bumble from "./images/bumblevir.png";
+import polyvir from "./images/polyvir.png";
+import xviruins from "./images/Xviruins.png";
 
 const Viruins = () => {
   return (

@@ -27,11 +27,11 @@ class App extends Component {
     return (
       <div>
       <Viruins/>
-      {/*<div className={styles.container}>
+      <div className={styles.container}>
         <Cards data={data}/>
         <CountryPicker />
         <Chart />
-    </div>*/}
+    </div>
       </div>
     );
   }
