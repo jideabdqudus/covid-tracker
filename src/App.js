@@ -29,7 +29,7 @@ class App extends Component {
       <Viruins/>
       <div className={styles.container}>
         <Cards data={data}/>
-        <CountryPicker />
+        <CountryPicker handleCountryChange={this.handleCountryChange}/>
         <Chart />
     </div>
       </div>
