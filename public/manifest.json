@@ -1,19 +1,19 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "COVID 19-TRACKER (by the Qoder)",
+  "name": "Built by Jide Abdul-Qudus using React JS, Materialize UI, Chart JS and CSS",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "../src/components/Viruins/images/bumblevir.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "../src/components/Viruins/images/bumblevir.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "../src/components/Viruins/images/bumblevir.png",
       "type": "image/png",
       "sizes": "512x512"
     }
