@@ -19,7 +19,7 @@ const Viruins = () => {
           <nav className={styles.mainNav}>
             <ul>
               <li>
-                <a href="#!">Try it for free</a>
+                <a href="#cards">Try it for free</a>
               </li>
             </ul>
           </nav>
@@ -34,7 +34,7 @@ const Viruins = () => {
               The COVID-19 health tracker platform provides you with
               multichannel information and update on the Coronavirus
             </span>
-            <a href="#!" className={styles.btn}>
+            <a href="#cards" className={styles.btn}>
               Try it for free
             </a>
           </div>
