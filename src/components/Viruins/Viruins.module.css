@@ -157,11 +157,11 @@ body {
 
 @media (max-width: 900px) {
   .homeMainSection .imgWrapper {
-    display: none;
+    display: none !important;
   }
 
   .homeMainSection {
-    justify-content: center;
+    justify-content: center !important;
   }
 }
 
