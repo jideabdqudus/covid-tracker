@@ -40,7 +40,7 @@ const Chart = ({ data:{confirmed, deaths, recovered}, country }) => {
   const barChart = confirmed ? (
     <Bar
       data={{
-        labels: ["infected", "Recovered", "Deaths"],
+        labels: ["Infected", "Recovered", "Deaths"],
         datasets:[{
           label:"People",
           backgroundColor:[
