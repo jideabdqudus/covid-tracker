@@ -26,7 +26,11 @@ const Viruins = () => {
         </header>
         <section className={styles.homeMainSection}>
           <div className={styles.imgWrapper}>
-            <img className={styles.ladyImage} src={xviruins} alt="Phone App"></img>
+            <img
+              className={styles.ladyImage}
+              src={xviruins}
+              alt="Phone App"
+            ></img>
           </div>
           <div className={styles.callToAction}>
             <b className={styles.title}>COVID TRACKER</b>
@@ -39,13 +43,41 @@ const Viruins = () => {
             </a>
           </div>
         </section>
-        <img className={styles.homePageCircle1} src={feeding} alt="bacteria_img"></img>
-        <img className={styles.homePageCircle2} src={polyvir} alt="bacteria_img"></img>
-        <img className={styles.homePageCircle3} src={sanitize} alt="bacteria_img"></img>
-        <img className={styles.homePageCircle4} src={wash} alt="bacteria_img"></img>
-        <img className={styles.homePageCircle6} src={bumble} alt="bacteria_img"></img>
-        <img className={styles.homePageCircle7} src={feeding} alt="bacteria_img"></img>
-        <img className={styles.homePageCircle10} src={wash} alt="bacteria_img"></img>
+        <img
+          className={styles.homePageCircle1}
+          src={feeding}
+          alt="bacteria_img"
+        ></img>
+        <img
+          className={styles.homePageCircle2}
+          src={polyvir}
+          alt="bacteria_img"
+        ></img>
+        <img
+          className={styles.homePageCircle3}
+          src={sanitize}
+          alt="bacteria_img"
+        ></img>
+        <img
+          className={styles.homePageCircle4}
+          src={wash}
+          alt="bacteria_img"
+        ></img>
+        <img
+          className={styles.homePageCircle6}
+          src={bumble}
+          alt="bacteria_img"
+        ></img>
+        <img
+          className={styles.homePageCircle7}
+          src={feeding}
+          alt="bacteria_img"
+        ></img>
+        <img
+          className={styles.homePageCircle10}
+          src={wash}
+          alt="bacteria_img"
+        ></img>
       </div>
     </div>
   );
